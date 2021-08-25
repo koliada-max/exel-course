@@ -1,0 +1,39 @@
+{
+  "name": "exel-course",
+  "version": "1.0.0",
+  "main": "webpack.config.js",
+  "scripts": {
+    "start": "webpack --mode=development",
+    "build": "webpack --mode=production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/koliada-max/exel-course.git"
+  },
+  "keywords": [],
+  "author": "Anastasiia Koliada",
+  "private": true,
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/koliada-max/exel-course/issues"
+  },
+  "homepage": "https://github.com/koliada-max/exel-course#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.12",
+    "webpack": "^5.51.1",
+    "webpack-cli": "^4.8.0"
+  },
+  "dependencies": {
+    "acorn": "^8.4.1",
+    "browserslist": "^4.16.8",
+    "chalk": "^4.1.2",
+    "envinfo": "^7.8.1",
+    "eslint-scope": "^5.1.1",
+    "esrecurse": "^4.3.0",
+    "estraverse": "^4.3.0",
+    "import-local": "^3.0.2",
+    "terser": "^5.7.2",
+    "which": "^2.0.2"
+  },
+  "description": ""
+}
